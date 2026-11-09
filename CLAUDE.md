@@ -28,15 +28,15 @@ No `<text>` elements. Every line is a single `<path>` of glyph outlines, so the 
 
 | Hex | Use |
 |---|---|
-| `#1C1D1F` | Black: front background |
-| `#B3262E` | Red: back background, bottom row of the logo |
+| `#1C1D1F` | Black: front background, bottom row of the logo on the back |
+| `#B3262E` | Red: back background, bottom row of the logo on the front |
 | `#E3E4E6` | Light grey: logo top row, title, address, CONSULTING GROUP on the back |
 | `#8C8F93` | Mid grey: logo middle row, CONSULTING GROUP on the front |
 | `#FFFFFF` | White: GREYSTONE, name, phone, email, website, divider |
 
 ## Logo
 
-The mark is three courses of stone: two bricks on top, half / whole / half in the middle, two bricks on the bottom. Colours top to bottom: light grey, mid grey, red. Both sides use the same colours. On the red back, the red bottom bricks have a thin `#E3E4E6` outline (stroke 0.35) so they don't disappear into the background.
+The mark is three courses of stone: two bricks on top, half / whole / half in the middle, two bricks on the bottom. Colours top to bottom: light grey, mid grey, then red on the black front and black (`#1C1D1F`) on the red back, so the bottom row always contrasts with the background.
 
 ## Layout of `card-back.svg` (in document order)
 
@@ -83,3 +83,4 @@ Based on `business-cards/red-black-grey/04-black-red` (#7 of 9 designs in the Gr
 1. Back logo recoloured to match the front: light grey, mid grey, red, with the red bricks outlined.
 2. CONSULTING GROUP added under GREYSTONE on the back, slightly right.
 3. Back logo block enlarged 40%.
+4. Bottom logo bricks on the red back changed from outlined red to solid black.
